@@ -1,3 +1,9 @@
+window.addEventListener('load', () => {
+    if (window.innerWidth < 1000) {
+        alert("This website is best viewed on a desktop screen.");
+    }
+});
+
 const projects = [
     {
         name: "Python Math Game",
