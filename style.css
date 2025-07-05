@@ -158,7 +158,7 @@ main h1 {
     50% { transform: scale(1.02); } /* smaller for subtle effect */
 }
 
-#projectsSection .project .projectDescription h3:hover, #allProjects .project .projectDescription h3:hover {
+#projectsSection .project .projectDescription h3, #allProjects .project .projectDescription h3 {
     display: inline-block; /* 👈 required to make transform work */
     animation: breathe 1.0s ease-in infinite;
     cursor: pointer;
