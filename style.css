@@ -163,8 +163,13 @@ main h1 {
 
 #projectsSection .project .projectDescription h3, #allProjects .project .projectDescription h3 {
     display: inline-block; /* 👈 required to make transform work */
-    animation: breathe 1.0s ease-in infinite;
     cursor: pointer;
+}
+
+#projectsSection .project .projectDescription h3:hover, #allProjects .project .projectDescription h3:hover {
+
+    animation: breathe 1.0s ease-in infinite;
+
 }
 
 .project img{
