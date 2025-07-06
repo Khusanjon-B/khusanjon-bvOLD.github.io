@@ -26,7 +26,7 @@ header {
 
     color: #1F1F1F;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     gap: 10px; /* ensures spacing when it wraps on small screens */
